@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>响应式页面</title>
+		<meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/myjqurey.js"></script>
+		
+		<script src="js/index.js"></script>
+		<script src="js/jquery.scrollTo.js"></script>
+	</head>
+	<body>
+		<!--侧边栏的滑动事件-->
+		<div class="zhj_sideBar">
+			<ul>
+				<li id="liOne"></li><br />
+				<li id="liTwo"></li><br />
+				<li id="liTree"></li><br />
+				<li id="liFour"></li><br />
+				<img src="img/hua.gif" alt="" />
+			</ul>
+		</div>
+
+	<!--头部-->
+		<div class="zhj_header">
+			<div class="zhj_header_left">
+				<img src="img/logo1.png" alt="" />
+			</div>
+			
+			<div class="zhj_header_right" id="topBar">
+				<ul id="topUl">
+					<li class="nav_pro">About
+					</li>
+					<li class="nav_news">Machines
+					</li>
+					<li class="nav_ser">Events
+					</li>
+					<li class="nav_con">Contact
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!--头部下面的第二个nav-->
+			<div class="zhj_who" id="changeNav">
+				<ul>
+					<li id="who">Who we are</li>
+					<li id="why">why rtdd</li>
+				</ul>	
+			</div>
+	<!--第二个banner图上面的小nav-->		
+			<div class="zhj_twoNav">
+				<ul>
+					<li id="one_click">ISUEDE<img src="img/jiao2.gif" alt="" id="oImgOne"/>
+					</li>
+					<div class="three_li" id="blockOne">
+					  <ul>
+					  	<li id="info1">
+					  		info
+					  	</li>
+					  	<li id="gallery1">
+					  		Gallery
+					  	</li>
+					  </ul>   	
+					</div>
+					<div class="three_li" id="blockTwo">
+					  <ul>
+					  	<li id='info2'>
+					  		info
+					  	</li>
+					  	<li id="gallery">
+					  		Gallery
+					  	</li>
+					  </ul>   	
+					</div>
+					
+					<li id="two_click">AMMONIA<img src="img/jiao2.gif" alt="" id="oImgTwo"/>
+					</li>
+					
+				</ul>
+			</div>
+	<!--第三个banner图上面的小nav-->	
+			<div class="zhj_threeNav">
+				<ul>
+					<li id="info3">info</li>
+					<li id="gallery3">Gallery</li>
+				</ul>
+			</div>
+	<!--第一个banner图who we are的banner图-->
+	<div class="zhj_promids">
+		<div class="zhj_bannerOne" id="pro">
+			<!--who we are部分--> 
+			<div class="zhj_whoAre">
+			  <div class="zhj_about">
+			  	ABOUT
+			  </div>
+			  <div class="zhj_whoWeAre">
+				Who we are
+			</div>
+			<div class="zhj_china">
+				Designed by Rtdd in Italy Assembled in China
+			</div>
+			<div class="zhj_moreText">
+				Rtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian engineersRtdd Machinery was founded in 2011 by several Italian
+			</div>
+			<div class="zhj_why">
+				Why
+				<img src="img/jiao.gif" alt="" />
+			</div>
+			</div>
+			
+						
+	<!--why atrrd部分-->
+			<div class="zhj_whyAttrd">
+				<div class="zhj_about">
+			  	ABOUT
+			    </div>
+				<div class="zhj_whoWeAre">
+				Why rtdd
+			</div>
+			<div class="zhj_china">
+				The strategy of sustainable development
+			</div>
+			<div class="zhj_moreText">
+				We believe the very best finishing machines can produce not onlWe believe the very best finishing machines can produce not onlWe believe the very best finishing machines can produce not onlWe believe the very best finishing machines can produce not onlWe believe the very best finishing machines can produce not onlWe believe the very best finishing machines can produce not onlWe believe the very best finishing machines can produce not onlWe believe the very best finishing machines can produce not onlvery best finishing machines can produce not onl
+			</div>
+			<div class="zhj_why">
+				Who
+				<img src="img/jiao.gif" alt="" />
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	
+    <!--第二个banner图-->
+		<div class="zhj_promidsTwo">
+		  <div class="zhj_bannerTwo" id="news">
+	<!--左边部分-->
+		  	<div class="zhj_machin">
+		  		<div class="zhj_machines">
+				MACHINES
+			</div>
+			<div class="zhj_bntLogo">
+				<img src="img/bnt-logo.gif" alt="" />
+			</div>
+			<div class="zhj_line">
+				<img src="img/xian.gif"/>
+			</div>
+			<div class="zhj_bntText">
+				AUTO COOLING  |  AUTO CLEANING  |  AUTO CONTROL
+			</div>
+			
+			<img src="img/banner2.png" alt="" />
+		  	</div>
+		  	
+	<!--右边部分-->
+		  	<div class="zhj_ammonia">
+		  		<div class="zhj_machines ammonia">
+				AMMONIA TREATMENT PLANT
+			</div>
+			<div class="zhj_line zhj_xianWhite">
+				<img src="img/xianb.gif"/>
+			</div>
+			<div class="zhj_bntText zhj_build">
+				BUILD YOUR OWN MULTIFUNCTIONAL AMMONIA TREATMENT PLANT
+			</div>
+			
+			<img src="img/banner-3.jpg" alt="" />
+		  	</div>		  	
+		  	
+		  </div>		
+		</div>
+		
+    <!--info里的第二层页面-->
+      <div class="zhj_promidsinfo">
+        <div class="zhj_info">
+        	<div class="zhj_infoLeft">
+        		<div class="zhj_self">
+        			Self-cooling Brush Drum-sueding
+        		</div>
+        		<div class="zhj_infoText">
+        			<p>THE ONLY SELF-COOLING BRUSH DRUM-SUEDING MACHINE</p>
+        			<p>CREATOR OF CENTRAL SUCTION FOR BRUSH DRUM-SUEDING</p>
+        			<p>DESIGNED IN ITALY, WITH 16 CHINESE AND INTERNATIONAL PATENTS</p>
+        			<p>LOWER TENTION, LOWER LABOR</p>
+        			<p>LONG LIFE, HIGH EFFICIENCY</p>
+        			<p>SOLVE COLOR DIFFERENCE AND MAKRS PROBLEMS FROM THE ROOT CAUSES</p>
+        		</div>
+        		<div class="zhj_infoPhoto">
+        			<ul>
+        				<li class="liOne">
+        					<div class="zhj_zzOne">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>       					
+        					<img src="img/preview-1.png" alt="" class="bImgOne"/>
+        				</li>
+        				
+        				<li class="liTwo">
+        					<div class="zhj_zzTwo">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+        					
+        					<img src="img/preview-2.png" alt="" class="bImgTwo"/>
+        				</li>
+        				
+        				<li class="liThree">
+        					<div class="zhj_zzThree">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+        					<img src="img/preview-3.png" alt="" class="bImgThree"/>
+        					
+        				</li>
+        				
+        				<li class="liFour">
+        					<div class="zhj_zzFour">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+        					<img src="img/preview-4.png" alt="" class="bImgFour"/>
+        				</li>
+        				
+        				<li class="liFive">
+        					<div class="zhj_zzFive">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+        					<img src="img/preview-5.png" alt="" class="bImgFive"/>
+        				</li>
+        				
+        				<li class="liSix">
+        					<div class="zhj_zzSix">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+        					<img src="img/preview-6.png" alt="" class="bImgSix"/>
+        				</li>
+        				<li class="liSeven">
+        					<div class="zhj_zzSeven">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+        					<img src="img/preview-7.png" alt="" class="bImgSeven"/>
+        				</li>
+        				
+        				<li class="liEight">
+        					<div class="zhj_zzEight">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+        					<img src="img/preview-8.png" alt="" class="bImgEight" class="bImgEight"/>
+        				</li>
+        			</ul>
+        		</div>
+        		<div class="zhj_arrow">
+        			<img src="img/1.png" id="arrowLeft" alt=""/>
+        		</div>
+        		
+        	<img src="img/banner4.gif" alt="" />  	
+        	</div>
+        	
+    <!--info右边部分-->
+        	<div class="zhj_infoRight">
+        		<div class="zhj_infoRightTop">
+        			<ul>
+        				<li id="infoOne">
+        					<div class="zhj_cooling1">
+        					<img src="img/ico-1.png" alt="" />	
+        						<p>Auto-Cooling</p>
+        					</div>
+        					<div class="zhj_coolingText1">
+        						<p>Machine Exit is desigines for very </p>
+        						<p>low tensines via converyor belt…</p>
+        					</div>
+        				</li>
+        				
+        				<li id="infoTwo">
+        					<div class="zhj_cooling2">
+        					<img src="img/ico-2.png" alt="" />	
+        						<p>Auto-Cleaning</p>
+        					</div>
+        					<div class="zhj_coolingText2">
+        						<p>Machine Exit is desigines for very </p>
+        						<p>Machine Exit is desigines</p>
+        						<p>low tensines via converyor belt…</p>
+        					</div>
+        				</li>
+        				
+        				<li id="infoThree">
+        					<div class="zhj_cooling3">
+        					<img src="img/ico-3.png" alt="" />	
+        						<p>Auto-Control</p>
+        					</div>
+        					<div class="zhj_coolingText3">
+        						<p>Machine Exit is desigines for very </p>
+        						<p>low tensines via converyo</p>
+        						<p>Machine Exit is desigines for very </p>
+        						<p>low tensines via converyor belt…</p>
+        					</div>
+        				</li>
+        				
+        				<li id="infoFour">
+        					<div class="zhj_cooling4">
+        					<img src="img/ico-4.png" alt="" />	
+        						<p>No-man Entry</p>
+        					</div>
+        					<div class="zhj_coolingText4">
+        						<p>Hachine Exit is desigines for very </p>
+        						<p>low tensines via converyor belt…</p>
+        					</div>
+        				</li>
+        			</ul>
+        		</div>
+        		
+        		<div class="zhj_infoRightBottom">
+        			<ul>
+        				<li id="infoBottom1">
+        					<div class="zhj_cooling5">
+        					<img src="img/ico-5.png" alt="" />	
+        						<p>Auto-Cooling</p>
+        					</div>
+        					<div class="zhj_coolingText5">
+        						<p>Gachine Exit is desigines for very </p>
+        						<p>low tensines via converyor belt</p>
+        						<p>Machine Exit is desigines</p>
+        						<p>low tensines via converyor belt…</p>
+        					</div>       				</li>
+        				<li id="infoBottom2">
+        					<div class="zhj_cooling6">
+        					<img src="img/ico-6.png" alt="" />	
+        						<p>Auto-Cooling</p>
+        					</div>
+        					<div class="zhj_coolingText6">
+        						<p>Eachine Exit is desigines for very </p>
+        						<p>low tensines via converyor be</p>
+        						<p>Machine Exit is desigines</p>
+        						<p>low tensines via converyor belt…</p>
+        					</div>
+        				</li>
+        				<li id="infoBottom3">
+        					<div class="zhj_cooling7">
+        					<img src="img/ico-7.png" alt="" />	
+        						<p>Auto-Cooling</p>
+        					</div>
+        					<div class="zhj_coolingText7">
+        						<p>Fachine Exit is desigines for very </p>
+        						<p>Machine Exit is desigi</p>
+        						<p>low tensines via converyor belt…</p>
+        					</div>
+        				</li>
+        				<li id="infoBottom4">
+        					<div class="zhj_cooling8">
+        					<img src="img/ico-8.png" alt="" />	
+        						<p>Auto-Cooling</p>
+        					</div>
+        					<div class="zhj_coolingText8">
+        						<p>Dachine Exit is desigines for very </p>
+        						<p>low tensines via converyor belt…</p>
+        						<p>believe the very best finishing machin not onlvery best</p>
+        						<p>low tensines via converyor belt finishing machines can produce not onl…</p>
+        					</div>
+        				</li>
+        			</ul>
+        		</div>
+        		
+        		<div class="zhj_arrowTwo">
+        			<img src="img/2.png" id="arrowRight" alt="" />
+        		</div>        		
+        	</div>    	
+        </div>
+	  </div>
+		
+	<!--第二个banner图的第二个info-->	
+		<div class="zhj_promidsinfoTwo">
+			<div class="zhj_infoTwo">
+				<div class="zhj_infoLeftTwo">
+					<div class="zhj_degreePart">
+						-33.34°C						
+					</div>
+					<div class="zhj_infoText">
+			            <p>
+							All fabrics with natural fiber will be suitable including shirting, denim, and knitting.
+						</p>		
+					<p>
+						The only ammonia processing Centre with width and length control of the fabrics.
+					</p>
+					<p>
+						Smart drying system without any direct contact with fabric surface. 
+					</p>
+					<p>
+						Low water consumption is specially designed for the RTDD ammonia.
+					</p>
+					<p>
+						99% of ammonia will be recovered and distillated.
+					</p>
+					<p>
+						The system will discharge only clean water and clean air both with 10 PPM of ammonia. 
+					</p>
+					<p>
+						Distillation system with high performance.
+					</p>
+					<p>
+						Top safety system designed according to both the European & USA standard.
+					</p>
+					<p>
+						Max. Mechanical Speed will be 80m/min and Max. Operating Speed will be 60m/min according to the GSM of the fabrics.
+					</p>
+					<p>
+						No sulfuric acid is required at Rtdd’s recovery unit.
+					</p>
+					<p>
+						Much Lower power consumption is also what we worked hard to achieve.
+					</p>
+				</div>	
+				<div class="zhj_infoPicture">
+					<ul>
+						<li class="shadeOne">
+							<div class="zhj_shadowOne">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt="" />
+							</span>
+							</div>
+							<img class="imgOne" src="img/AMMONIA-1.png" alt="" />
+						</li>
+						
+						<li class="shadeTwo">
+							<div class="zhj_shadowTwo">
+								<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							    </span>
+							</div>
+							<img src="img/AMMONIA-2.png" alt="" class="imgTwo"/>
+						</li>
+						
+						<li class="shadeThree">
+							<div class="zhj_shadowThree">
+								<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							<img src="img/AMMONIA-3.png" alt="" class="imgThree" />
+						</li>
+						
+						<li class="shadeFour">
+							<div class="zhj_shadowFour">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							<img src="img/AMMONIA-4.png" alt=""  class="imgFour"/>
+						</li>
+						
+						<li class="shadeFive">
+							<div class="zhj_shadowFive">
+							<span>
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							<img src="img/AMMONIA-5.png" alt=""  class="imgFive" />
+						</li>
+					</ul>
+				</div>			
+					<img src="img/banner5.gif" alt="" />
+				</div>
+							
+	<!--第二个banner图第二个info下的	Gallery部分-->
+        <div class="zhj_Gallerypart">
+        	<div class="zhj_topLeft">
+        		
+        	</div>
+        	<div class="zhj_topRight">
+        		
+        	</div>
+          <div class="zhj_wrapperGallery">
+             	<ul>
+             		<li>
+             			<img src="img/foucu-two-1.jpg" alt="" />
+             		</li>
+             		<li>
+             			<img src="img/foucu-two-2.jpg" alt="" />
+             		</li>
+             		<li>
+             			<img src="img/foucu-two-3.jpg" alt="" />
+             		</li>
+             		<li>
+             			<img src="img/foucu-two-4.jpg" alt="" />
+             		</li>
+             		<li>
+             			<img src="img/foucu-two-5.jpg" alt="" />
+             		</li>
+             	</ul>	
+          </div>
+        </div>
+	</div>
+</div>		
+		
+	<!--第三个banner图-->
+		<div class="zhj_bannerThree" id="ser">
+			<div class="zhj_events">
+				EVENTS
+			</div>
+			<div class="zhj_share">
+				SHARE OUR MOMENTS
+			</div>
+			<div class="zhj_lineTwo">
+				<img src="img/xianTwo.gif"/>
+			</div>
+			<div class="zhj_belive">
+				Believe . Insist . Succeed
+			</div>			
+			<img src="img/bnt3.png" alt="" />
+		</div>
+		
+    <!--第三个banner图的第二个info部分-->	
+    <div class="zhj_promidsinfoThree">
+		<div class="zhj_shareOur">
+			<div class="zhj_infoLeftThree">
+				<div class="zhj_moments">
+					SHARE OUR MOMENTS
+				</div>
+				<div class="zhj_litleText">
+					<p>
+						Short and dense plush
+					</p>
+					<p>
+						Clean and uniform style
+					</p>
+					<p>
+						Largely remained the high-end texture
+					</p>
+					<p>
+						While allowing an abundance of delicate touch
+					</p>
+					<p>
+						This is whole new sueding experience that RTDD
+					</p>
+					<p>
+						Has brought to you
+					</p>
+					<p>
+						iSUEDE III, the 1st self-cooling sueding machine
+					</p>
+					<p>
+						Is carrying more advanced technology
+					</p>
+					<p>
+						More stable control system
+					</p>
+					<p>
+						More user-friendly operation
+					</p>
+					<p>
+						And much lower production cost
+					</p>
+					<p>
+						To meet you around the world
+					</p>
+				</div>
+				
+				<div class="zhj_infoThreePicture">
+					<ul id="shaowTwo">
+						<li class="maskOne">
+							<div class="zhj_shadowTwoOne">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							
+							<img src="img/third-1.png" alt="" class="picturesOne"/>
+						</li>
+						
+						<li class="maskTwo">
+							<div class="zhj_shadowTwoTwo">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							
+							<img src="img/third-2.png" alt=""  class="picturesTwo"/>
+						</li>
+						
+						<li class="maskThree">
+							<div class="zhj_shadowTwoThree">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							
+							<img src="img/third-3.png" alt=""  class="picturesThree"/>
+						</li>
+						
+						<li class="maskFour">
+							<div class="zhj_shadowTwoFour">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							
+							<img src="img/third-4.png" alt="" class="picturesFour" />
+						</li>
+						
+						<li class="maskFive">
+							<div class="zhj_shadowTwoFive">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							<img src="img/third-5.png" alt=""  class="picturesFive"/>
+						</li>
+						
+						<li class="maskSix">
+							<div class="zhj_shadowTwoSix">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							<img src="img/third-6.png" alt=""  class="picturesSix"/>
+						</li>
+						
+						<li class="maskSeven">
+							<div class="zhj_shadowTwoSeven">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							<img src="img/third-7.png" alt=""  class="picturesSeven"/>
+						</li>
+						
+						<li class="maskEight">
+							<div class="zhj_shadowTwoEight">
+							<span>																	
+							<img style="width: 25px;height: 25px;margin-top: 14px;" src="img/ss.png" alt=""/>
+							</span>
+							</div>
+							<img src="img/third-8.png" alt=""  class="picturesEight"/>
+						</li>
+					</ul>
+				</div>		
+				<img src="img/banner-7.jpg" alt="" />
+			</div>
+			
+	<!--第三个banner图的第二个info 下	Gallery部分-->		
+	<div class="zhj_GalleryThree">
+		<div class="zhj_GalleryThreeLeft"></div>
+			<div class="zhj_GalleryThreeRight"></div>
+		<div class="zhj_wrapperGalleryThree">
+			
+			<ul>
+				<li>
+					<img src="img/third-focus-1.jpg" alt="" />
+				</li>
+				<li>
+					<img src="img/third-focus-2.jpg" alt="" />
+				</li>
+				<li>
+					<img src="img/third-focus-3.jpg" alt="" />
+				</li>
+				<li>
+					<img src="img/third-focus-4.jpg" alt="" />
+				</li>
+				<li>
+					<img src="img/third-focus-5.jpg" alt="" />
+				</li>
+				<li>
+					<img src="img/third-focus-6.jpg" alt="" />
+				</li>
+				<li>
+					<img src="img/third-focus-7.jpg" alt="" />
+				</li>
+				<li>
+					<img src="img/third-focus-8.jpg" alt="" />
+				</li>
+			</ul>
+		</div>
+	</div>				
+  </div>
+</div>		
+		
+	<!--最后一部分 content部分-->
+		<div class="zhj_content" id="con">
+			<div class="zhj_contact">
+				Contact
+			</div>
+			<div class="zhj_allWrapper">
+				<ul>
+					<li>
+						<span>CHINA AND ASIA</span>
+						<span>JIM XU</span>
+						<span>GSM: +86 138 0161 8024 </span>
+						<span>Email: JIMXU@RUIT</span>
+					</li>
+					<li>
+						<span>TURKEY</span>
+						<span>AMMONIA SECTOR<br /> TEKSEL TEKSTIL丨<br/>www.tekseltekstil.com.tr  </span>
+						<span>
+							MEHMET ONCUL
+ADD: SURURI MAH. HOCAHANI SOK. NO:25 AMBARCI IS MERKEZI KAT:4
+NO:88/89 YESILDIREK, EMINONU, 34120, ISTANBUL
+TEL: +90 212 269 82 82
+FAX: +90 212 325 77 69
+GSM: +900530 955 26 24
+EMAIL: MEHMETONCUL@TEKSELTEKSTIL.COM.TR
+						</span>
+					</li>
+					<li>
+						<span>
+							TURKEY
+						</span>
+						<span>SUEDING SECTOR<br/>
+ERTEKS TEKSTIL 丨<br/>  www.erteks-tekstil.com</span>
+						<span>
+							SERKAN ERCETIN
+ADD: EVREN MH. BAHAR CAD., NO:6 POLAT IS MERKEZI 
+C BLOK KAT:4 D:41, GUNESLI BAGCILAR/ ISTANBUL
+TEL: +90 212 514 0951
+FAX: +90 212 514 0953
+EMAIL: SERKAN@ERTEKS-TEKSTIL.COM
+						</span>
+					</li>
+					<li>
+						<span>
+							AMERICA AND EUROPE
+						</span>
+						<span>MATEUS AGENCY S.A.S. 丨<br/>www.mateus.it</span>
+						<span>
+							GIOVANNI MEAZZA
+ADD: VIA PIER DELLA FRANCESCA, 29
+     59100 PRATO ITALY
+TEL: +39 0574 583296
+FAX: +39 0574 571981
+GSM: +39 340 1869837
+EMAIL: MBOX@MATEUS.IT
+						</span>
+					</li>
+				</ul>
+			</div>
+			
+		</div>			
+	</body>
+</html>
